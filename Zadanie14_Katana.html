@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defining Colors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sposoby Definiowania Kolorów</h1>
+    <p>Kolory w CSS można definiować na różne sposoby. Poniższa tabela przedstawia najczęściej używane metody wraz z przykładami.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Metoda</th>
+                <th>Opis</th>
+                <th>Przykład</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kolory nazwane</td>
+                <td>Użycie nazw kolorów zdefiniowanych w standardzie CSS.</td>
+                <td><code>color: red;</code></td>
+            </tr>
+            <tr>
+                <td>RGB</td>
+                <td>Definiowanie koloru za pomocą składowych czerwonej, zielonej i niebieskiej (Red, Green, Blue).</td>
+                <td><code>color: rgb(255, 0, 0);</code></td>
+            </tr>
+            <tr>
+                <td>RGBA</td>
+                <td>RGB z dodatkiem kanału alfa określającego przezroczystość.</td>
+                <td><code>color: rgba(255, 0, 0, 0.5);</code></td>
+            </tr>
+            <tr>
+                <td>HEX</td>
+                <td>Definiowanie koloru za pomocą szesnastkowego kodu koloru.</td>
+                <td><code>color: #ff0000;</code></td>
+            </tr>
+            <tr>
+                <td>HSL</td>
+                <td>Definiowanie koloru za pomocą składowych Hue (odcień), Saturation (nasycenie) i Lightness (jasność).</td>
+                <td><code>color: hsl(0, 100%, 50%);</code></td>
+            </tr>
+            <tr>
+                <td>HSLA</td>
+                <td>HSL z dodatkiem kanału alfa określającego przezroczystość.</td>
+                <td><code>color: hsla(0, 100%, 50%, 0.5);</code></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

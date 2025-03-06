@@ -1,0 +1,33 @@
+
+p#pogrubienie_katana {
+    font-size: 31px; 
+    color: #bc2be5; 
+}
+
+p#pochylona_katana {
+    font-size: 36pt; 
+    color: #ff96a7; 
+}
+
+p#index_gorny_katana {
+    font-size: 1.1cm; 
+    color: #d636b7; 
+}
+
+p#index_dolny_katana {
+    font-size: 1.7cm; 
+    color: rgba(54%, 95%, 69%, 1); 
+}
+
+p#mono_katana {
+    font-size: 41px; 
+    color: #2ed767; 
+}
+
+p#powiekszenie_katana {
+    color: #4f577d; 
+}
+
+p#pomniejszenie_katana {
+    color: rgba(72%, 64%, 55%, 1); 
+}

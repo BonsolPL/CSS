@@ -1,0 +1,18 @@
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+
+#gruby_katana {
+    color: blue;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+
+#dlawszyskich_katana {
+    color: yellow;
+    font-size: 19pt;
+    font-family: Arial, sans-serif;
+}
