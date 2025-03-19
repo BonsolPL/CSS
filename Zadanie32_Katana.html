@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 32 - Model Pudełkowy</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        .box-model { width: 200px; padding: 20px; border: 5px solid black; margin: 10px; background-color: lightgray; }
+    </style>
+</head>
+<body>
+    <h1>1. Podaj definicję modelu pudełkowego.</h1>
+    <p>Model pudełkowy w HTML określa sposób, w jaki przeglądarki renderują elementy jako prostokątne pudełka składające się z zawartości (content), wypełnienia (padding), obramowania (border) i marginesu (margin).</p>
+    
+    <h1>2. Tabela zawartości modelu pudełkowego</h1>
+    <table>
+        <tr>
+            <th>Zawartość</th>
+            <th>Opis</th>
+        </tr>
+        <tr>
+            <td>Content</td>
+            <td>Zawartość elementu, np. tekst lub obrazek.</td>
+        </tr>
+        <tr>
+            <td>Padding</td>
+            <td>Odstęp między zawartością a obramowaniem.</td>
+        </tr>
+        <tr>
+            <td>Border</td>
+            <td>Obramowanie wokół zawartości elementu.</td>
+        </tr>
+        <tr>
+            <td>Margin</td>
+            <td>Margines zewnętrzny oddzielający element od innych.</td>
+        </tr>
+    </table>
+    
+    <h1>3. Dwie uwagi na temat modelu pudełkowego</h1>
+    <p><strong>Uwaga 1:</strong> Padding, border i margin mogą mieć zerową wartość.</p>
+    <p><strong>Uwaga 2:</strong> Tło elementu obejmuje content, padding i border, ale nie margin.</p>
+    
+    <h1>4. Grafika przedstawiająca model pudełkowy</h1>
+    <img src="box_model_diagram.png" alt="Schemat modelu pudełkowego">
+    
+    <h1>5. Grafika przedstawiająca różnicę między paddingiem a marginesem</h1>
+    <img src="padding_vs_margin.png" alt="Różnica między paddingiem a marginesem"><br>
+Padding określa przestrzeń wokół danego elementu, np: <&nbspp> lub <&nbspdiv>, natomiast margines
+przestrzeń pomiędzy elementami.
+Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość
+przestrzeni wokół elementu <&nbspp>. Element ten posiada również margines zaznaczony kolorem
+pomarańczowym. Jest to odległość od brzegu elementu <&nbspbody>.
+</body>
+</html>
+<!-- Szymon Katana -->
