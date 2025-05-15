@@ -1,0 +1,16 @@
+div{
+    background-color: green;
+    width: 613px;
+}
+#blok1_katana:hover{
+    background-color: silver;
+    font-size: 19mm;
+}
+#blok2_katana:hover{
+    background-color: yellow;
+    font-size: 19mm;
+}
+#blok3_katana:hover{
+    background-color: turquoise;
+    font-size: 19mm;
+}
