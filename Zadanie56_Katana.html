@@ -1,0 +1,139 @@
+<html>
+<head>
+<style>
+#blok1 {
+width: 230px;
+height:auto;
+padding: 6px;
+border: 4px dashed #222;
+background: rgb(120,60,180);
+}
+#blok2 {
+width: 230px;
+height:auto;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(0,240,90);
+}
+#blok3 {
+width: 255px;
+height:auto;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(0,90,240);
+}
+#blok4 {
+width: 360px;
+height:auto;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(255,80,80);
+}
+#blok5 {
+width: 360px;
+height:auto;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(40,140,90);
+}
+#blok6 {
+width: 430px;
+height:auto;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(190,140,90);
+}
+#box {
+width: 430px;
+height:auto;
+padding: 6px;
+border: 4px dashed #222;
+background: rgb(0,140,140);
+}
+#ramka {
+width: 230px;
+height:auto;
+padding: 6px;
+border: 4px dashed #222;
+background: rgb(140,140,140);
+}
+#kratka {
+width: 410px;
+height:2cm;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(60,60,160);
+}
+#mini {
+width: 160px;
+height:7mm;
+padding: 6px;
+border: 4px dotted #222;
+background: rgb(0,130,0);
+}
+#bold { font-weight: bold; }
+</style>
+</head>
+<body>
+<ol type="1">
+<h1><li>Składnia klasy w CSS</li></h1>
+<p id="blok1">selektor.klasa { cecha: wartość }</p>
+
+<h1><li>Opis klasy, cechy i wartości</li></h1>
+<p id="kratka">Klasa to atrybut class="..." przypisany w znaczniku HTML.<br>"cecha" i "wartość" definiują wygląd elementu w CSS.</p>
+
+<h1><li>Przykładowe selektory</li></h1>
+<p id="mini">p =&gt; paragraf</p>
+<p id="mini">h1 =&gt; nagłówek</p>
+<p id="mini">td =&gt; komórka tabeli</p>
+
+<h1><li>Uwagi o nazwach klas</li></h1>
+<p>Nazwy klas to pojedyncze wyrazy, bez:<br>
+a) <g id="bold">spacji</g><br>
+b) <g id="bold">kropek</g><br>
+c) <g id="bold">przecinków</g><br>
+d) <g id="bold">dwukropków</g><br>
+e) <g id="bold">nawiasów</g><br>
+Zawierają:<br>
+a) <g id="bold">litery</g><br>
+b) <g id="bold">cyfry</g><br>
+c) <g id="bold">myślniki</g><br>
+d) <g id="bold">podkreślenia</g><br>
+Nie mogą zaczynać się od cyfr ani znaków specjalnych.</p>
+
+<h1><li>Zastosowanie klas</li></h1>
+<p id="blok2">Używamy klas dla wielu elementów z tym samym wyglądem, niezależnie od ich typu HTML.</p>
+
+<h1><li>Użycie klas przy ograniczeniach selektorów</li></h1>
+<p>Kiedy nie chcemy, by wszystkie elementy tego samego typu wyglądały jednakowo.</p>
+
+<h1><li>Składnia wielu klas</li></h1>
+<p id="box">&lt;selektor class="klasa1 klasa2 klasa3"&gt;...&lt;/selektor&gt;</p>
+
+<h1><li>Podzbiory klas</li></h1>
+<p id="box">selektor.klasa1.klasa2 { cecha: wartość }</p>
+<p id="ramka">Element musi mieć przypisane wszystkie klasy jednocześnie, by reguła zadziałała.</p>
+
+<h1><li>Kiedy stosować klasy</li></h1>
+<p id="blok2">Gdy trzeba przypisać kilka klas do jednego elementu.</p>
+
+<h1><li>Planowanie klas</li></h1>
+<p>Gdy na stronie wiele elementów wymaga podobnego stylu, a selektory typu są niewystarczające.</p>
+
+<h1><li>Komentarze przy klasach</li></h1>
+<p>Komentarze pomagają pamiętać, do czego służy dana klasa po dłuższym czasie.</p>
+
+<h1><li>Definicja i wywołanie klasy</li></h1>
+<p id="blok3">p.testowa-klasa { color: red }</p>
+<p id="blok4">&lt;p class="testowa-klasa"&gt;To jest tekst z klasą.&lt;/p&gt;</p>
+
+<h1><li>Klasa dla jednego selektora</li></h1>
+<p id="blok5">h2.tylko-dla-naglowka { color: green; font-size: 16pt }</p>
+
+<h1><li>Klasa uniwersalna i znak "*"</li></h1>
+<p id="blok6">.globalna { font-style: italic; color: navy; }</p>
+<p id="blok6">&lt;div class="globalna"&gt;Ten element korzysta z klasy uniwersalnej.&lt;/div&gt;</p>
+</ol>
+</body>
+</html>
+<!-- Szymon Katana-->

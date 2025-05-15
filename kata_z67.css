@@ -1,0 +1,44 @@
+body{background-color: red;}
+.pierwszy:first-letter {
+    font-size: 115pt;
+    color: lightgreen;
+}
+
+.pierwszy {
+    font-size: 21pt;
+    color: orange;
+}
+
+.drugi:first-letter {
+    font-size: 115pt;
+    color: lightgreen;
+}
+
+.drugi {
+    font-size: 19pt;
+    color: orange ;
+}
+
+.csspiekny::first-letter {
+    color: rgb(175, 152, 152);
+    font-size: 120pt;
+}
+
+.csspiekny {
+    color: purple;
+    font-size: 35 pt;
+}
+
+.ostatniakapit:first-letter {
+    font-size: 115pt;
+}
+
+.ostatniakapit:first-line {
+    color: lightgreen;
+}
+
+.ostatniakapit {
+    font-size: 21pt;
+    color: orange ;
+    
+}

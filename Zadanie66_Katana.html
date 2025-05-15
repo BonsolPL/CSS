@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #blok {
+            width: auto;
+            height: auto;
+            padding: 6px;
+            border: 3px dashed #333;
+            background: rgb(100, 230, 150);
+        }
+    </style>
+    <meta charset="UTF-8" />
+</head>
+<body>
+    <ul>
+        <li>
+            <h1>:first-line</h1>
+            <p>Pozwala sformatować tylko pierwszą linię tekstu w elemencie.</p>
+            <p id="blok">
+div {  
+    color: teal;  
+    font-size: 14pt;  
+}  
+
+div:first-line {  
+    color: darkred;  
+    font-size: 22pt;  
+    text-transform: uppercase;  
+}
+            </p>
+        </li>
+        <li>
+            <h1>::before i ::after</h1>
+            <p>Służą do dodawania zawartości przed i po elemencie HTML za pomocą CSS.</p>
+            <p id="blok">
+div::before {  
+    content: "<<< POCZĄTEK >>>";  
+    font-size: 14pt;  
+    font-style: oblique;  
+    color: green;  
+}  
+
+div::after {  
+    content: "<<< KONIEC >>>";  
+    font-size: 14pt;  
+    font-style: oblique;  
+    color: green;  
+}
+            </p>
+        </li>
+        <li>
+            <h1>:first-letter</h1>
+            <p>Formatowanie tylko pierwszej litery bloku tekstu.</p>
+            <p id="blok">
+div {  
+    color: navy;  
+    font-size: 28pt;  
+}  
+
+div:first-letter {  
+    color: orange;  
+    font-size: 90pt;  
+    font-weight: bold;  
+}
+            </p>
+        </li>
+    </ul>
+</body>
+</html>
